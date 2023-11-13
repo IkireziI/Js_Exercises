@@ -1,0 +1,15 @@
+function greatest(arr){
+
+    let great = arr[0];
+    for (let i=1; i< arr.length; i++){
+        if (arr[i]> great){
+             great = arr[i]
+        }
+    }
+    return great;
+}
+
+ let array = [1,2,3,4,];
+ console.log(greatest(array));
+ 
+ //greatest array
