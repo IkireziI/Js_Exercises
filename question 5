@@ -1,0 +1,13 @@
+function sumArray(arr) {
+  
+ let total = 0
+    for (let a = 0; a<arr.length; a++){
+        total += arr[a];
+    }
+    return total;
+}
+
+let myArray = [4,4,0,1,1];
+console.log(sumArray(myArray));
+
+//sum of all item in Array
