@@ -1,0 +1,13 @@
+function sortArray(arr){
+    console.log("first 3 element",arr.slice(0,3));
+    console.log("last 3 element",arr.slice(-3));
+
+    var sortedArr= arr.sort((a,b)=>a-b);
+    
+    var first3=sortedArr.slice(0,3) ;
+    console.log(sortedArr);
+    console.log(first3);
+    
+
+}
+sortArray([3,4,8,2,1,2,2,6,3,4]);
