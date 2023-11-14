@@ -1,0 +1,15 @@
+function pattern(p){
+    
+    for (let j = 0; j < p ; j++) {
+        var arr=[];
+        for (let i = p-1; i >=j; i--) {
+
+            arr+="1 ";
+         
+        }
+        console.log(arr);
+    }
+}
+pattern(4);
+
+//question 11
