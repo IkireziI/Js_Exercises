@@ -1,0 +1,6 @@
+function rev(arr) {
+    var revArr=arr.reverse();
+    return revArr;
+
+}
+console.log(rev([1,2,3,6,4,5,7,8]));
