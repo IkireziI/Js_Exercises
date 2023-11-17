@@ -1,0 +1,7 @@
+function cond(arr) {
+    return arr >=0;    
+}
+function filterArr(arr){
+    return arr.filter(cond);
+}
+console.log(filterArr([2,5,4,3,6,5,7,9,8]));
